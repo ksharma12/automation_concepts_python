@@ -6,10 +6,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 url = "https://www.google.com/"
 
 firefox_options = webdriver.FirefoxOptions()
-#fireox_options = Options
+# fireox_options = Options
 firefox_options.headless = True
 
-firefox_options.set_preference("dom.webnotification.enabled",False)
+firefox_options.set_preference("dom.webnotification.enabled", False)
 
 driver = webdriver.Firefox(options=firefox_options)
 # Common Prerequisite
