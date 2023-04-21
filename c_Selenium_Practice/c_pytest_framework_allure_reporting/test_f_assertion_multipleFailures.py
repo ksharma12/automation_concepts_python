@@ -12,7 +12,6 @@ def test_registration_form():
 @pytest.mark.smoke
 def test_shares_section():  # function stopped execution once an assertion is failed
     assert "asdf" == "asdf"
-    assert "zxcv" == "zhcv"
     assert_that("asdf").is_equal_to("asdef")
     assert_that("asdf").is_equal_to("asdf")
 
