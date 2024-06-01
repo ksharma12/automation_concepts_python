@@ -8,7 +8,7 @@ output1 = list(asdf1)
 # Q2 Find the Count of chars with respect to chars
 list2 = ['a', 'b', 'c', 'd', 'a', 'c', 'd', 'b', 'b', 'a']
 asdf2 = {n: list2.count(n) for n in list2}
-# print(asdf2)
+print(asdf2)
 
 # Q3 Remove all elements which are duplicate in the list
 list3 = ['a', 'b', 'c', 'd', 'a', 'a']
