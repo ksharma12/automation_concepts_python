@@ -11,7 +11,7 @@ ${a}    12
 
 *** Keywords ***
 *** Test Cases ***
-    open browser    ${URL}    chrome
+    open browser    ${URL}   
 
 
 
